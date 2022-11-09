@@ -108,7 +108,6 @@ for(let i = 0; i < posts.length; i++) {
 
     feed.append(listPost);
 }
-
  
 function italianDate(date) {
     return date.split('-').reverse().join('/');
